@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross Country Road Trip</title>
+    <style>
+        h1 {
+            color:pink; 
+            text-align: center;
+            border: 1px solid pink;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body {
+            background-color: rgba(247, 238, 245, 0.738); 
+            text-align: center;
+        }
+        p {
+            color:rgb(243, 166, 225); 
+            font-size:18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            text-align: left;
+        }
+        table {
+            padding: 18px;
+        }
+        tr {
+            background-color: rgb(241, 209, 234);
+            text-align: left;
+        }
+        th {
+            background-color: pink;
+            border-style: dotted;
+        }
+        footer {
+            background-color: rgb(246, 208, 237); 
+            padding: 10px; 
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: pink;
+            padding: 15px;
+        }
+        ul {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(252, 174, 187);
+            list-style: square;
+            text-align: left;
+        }
+        img {
+            border: 8px solid;
+            margin: 10px;
+            border-color:rgb(241, 209, 234);
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid rgb(241, 209, 234);
+            border-radius: 10px;
+            background-color: rgb(249, 230, 244);
+        }
+        article {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        @media screen and (max-width: 600px) { nav, article { flex-direction: column; } }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="homepage.html">Homepage</a>
+        <a href="route.html">Route</a>
+        <a href="westcoast.html">West Coast</a>
+        <a href="midstates.html">Mid States</a>
+        <a href="eastcoast.html">East Coast</a>
+        <a href="comments.html">Guestbook</a>
+    </nav>
+
+    <hr>
+
+    <header>
+        <h1>Maddy and Lily's Cross Country Road Trip</h1>
+    </header>
+
+    <article>
+        <img src="images/foodstop.jpeg" alt="Maddy and Lily at In and Out" width=350>
+        <img src="images/grandcanyon1.jpeg" alt="Maddy and Lily at Grand Canyon" width=350>
+    </article>
+
+    <section>
+        <p>Over the summer, Lily and I did a cross-country road trip. Lily is from California.
+            We drove her car to get it back to school in Vermont! Underneath are all the stops
+            we took throughout the trip.
+        </p>
+
+        <ul>
+            <li>Dana Point, California (Lily's Hometown!)</li>
+            <li>Grand Canyon</li>
+            <li>Durango, Colorado</li>
+            <li>Denver, Colorado</li>
+            <li>Kansas University</li>
+            <li>Chicago, Illinois</li>
+            <li>Pittsburgh, Pennsylvania</li>
+            <li>Guilford, Connecticut (Maddy's Hometown!)</li>
+            <li>University of Vermont (Back to School!)</li>
+        </ul>
+    </section>
+
+    <section>
+        <p>Here's a look into how long our drive was...</p>
+
+        <table>
+            <tr>
+                <th>Stops</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Dana Point, CA to Grand Canyon</td>
+                <td>7 hr 35 min</td>
+            </tr>
+            <tr>
+                <td>Grand Canyon to Durango, CO</td>
+                <td>5 hr 25 min</td>
+            </tr>
+            <tr>
+                <td>Durango, CO to Denver, CO</td>
+                <td>7 hr (Took Route 550)</td>
+            </tr>
+            <tr>
+                <td>Denver, CO to KU</td>
+                <td>7 hr 45 min</td>
+            </tr>
+            <tr>
+                <td>KU to Chicago, IL</td>
+                <td>7 hr 30 min</td>
+            </tr>
+            <tr>
+                <td>Chicago, IL to Pittsburgh, PA</td>
+                <td>7 hr</td>
+            </tr>
+            <tr>
+                <td>Pittsburgh, PA to Guilford, CT</td>
+                <td>7 hr 30 min</td>
+            </tr>
+            <tr>
+                <td>Guilford, CT to UVM</td>
+                <td>4 hr</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Sign our Guestbook</h2>
+
+        <form action="comments.html" method="GET">
+
+        <p><label for="name">Name:</label></p>
+        <input type="text" id="name" name="name" minlength="2" maxlength="25" placeholder="Enter your name" required/>
+
+        <p>Type of comment:</p>
+        <label><input type="radio" name="type" value="General comment" checked /> General comment</label>
+        <label><input type="radio" name="type" value="Stop recommendation" /> Stop recommendation</label>
+        <label><input type="radio" name="type" value="Been there too!" /> Been there too!</label>
+
+        <p><label for="message">Your Message:</label></p>
+        <textarea id="message" name="message" rows=4 cols=30 required></textarea>
+
+        <p><button type="submit">Submit</button></p>
+
+    </form>
+    </section>
+
+    <footer>
+        Hope you enjoyed our website:)
+    </footer>
+
+</body>
+
+</html>
