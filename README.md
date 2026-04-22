@@ -60,7 +60,8 @@ A multi-page website documenting our cross-country road trip from California to 
 ## Maddy Smith 
 
 - Added an interactive map feature using the Leaflet API, including functions and images.
-  The map has a marker on each stop, and clicking a marker shows the stop name.
+  The map has a marker on each stop, and clicking a marker shows the stop name. Additionally
+  updated all files to GitHub and created the README.md. 
 
 ## Lily Verna
 
