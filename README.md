@@ -11,7 +11,7 @@ A multi-page website documenting our cross-country road trip from California to 
 - **West Coast** — photos and stories from California, Arizona, and Colorado
 - **Mid States** — highlights from Kansas and Chicago
 - **East Coast** — the final stretch through Pittsburgh, Connecticut, and Vermont
-- **Guestbook** — visitors can leave a comment that gets saved and displayed
+- **Trip Planning Notes** — visitors can leave trip planning notes saved and displayed
 
 ---
 
@@ -39,7 +39,7 @@ A multi-page website documenting our cross-country road trip from California to 
 
 ## Data
 
-- Guestbook comments are stored in `localStorage` as JSON so they stick around between visits
+- Trip planning notes comments are stored in `localStorage` as JSON so they stick around between visits
 
 ## Navigation
 
@@ -65,5 +65,5 @@ A multi-page website documenting our cross-country road trip from California to 
 
 ## Lily Verna
 
-- Created an HTML form with JS validation that takes comments from site visitors and posts them
+- Created an HTML form with JS validation that takes trip planning notes from site visitors and posts them
   to the site. Also added a CSS file for consistent flexbox styling throughout the website. 
